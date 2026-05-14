@@ -83,3 +83,13 @@ int main()
 
         cout << "1. push" ;
         cout << "2. pop" ;
+        cout << "3. peek" ;
+        cout << "4. Exit" ;
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        switch (choice)
+        {
+        case 1:
+            cout << "Enter the value to push: ";
+            cin >> value;
