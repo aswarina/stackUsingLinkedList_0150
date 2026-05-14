@@ -74,3 +74,12 @@ public:
 int main()
 {
     stack stack;
+
+    int choice = 0;
+    int value;
+
+    while (choice != 5)
+    {
+
+        cout << "1. push" ;
+        cout << "2. pop" ;
